@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIGLET</title>
+    <!-- Option 1: Use a CDN -->
+    <script>
+       
+    </script>
+    <script src="/figlet.js"></script>
+    <!-- Add custom fonts from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Add Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+
+<body style="background-color: rgb(243, 219, 195);">
+    <h1 style="text-align: center; font-size: large;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Welcome to Node Module Class</h1>
+
+    <div class="container mt-5" style="background-color: rgb(241, 104, 104);">
+    
+        <div class="form-group">
+            <label for="nameInput" style="font-family: 'Roboto', sans-serif;">Enter your name:</label>
+            <input type="text" class="form-control" id="nameInput" style="font-family: 'Roboto', sans-serif;">
+        </div>
+        <button class="btn btn-primary" id="greetButton" style="font-family: 'Roboto', sans-serif;">Greet</button>
+        <div class="mt-3" id="result" style="font-family: 'Roboto', sans-serif;"></div>
+    </div>
+    <hr />
+    <div class="container mt-5" style="background-color: rgb(193, 238, 125);">
+
+        <h2 style="background-color: rgb(71, 202, 202);">Lets play with FIGLET</h2>
+        <pre id="ascii-art"></pre>
+    </div>
+     <!-- Add the script tag with type="module" to load your ES6 modules -->
+  <script type="module" src="/app.js"></script>
+</body>
+
+</html>
